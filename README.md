@@ -2,6 +2,8 @@
 
 A minimal React + TypeScript + Vite setup with ESLint, designed for rapid frontend development.
 
+website: https://popx-assignment-two.vercel.app/
+
 ## Tech Stack
 
 * React
