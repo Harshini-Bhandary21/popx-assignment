@@ -1,0 +1,45 @@
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4px;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.label {
+  color: #6c25ff;
+  font-weight: 500;
+  position: absolute;
+  top: 0px;
+  left: 12px;
+  background-color: #f7f8f9;
+  padding: 0 4px;
+  z-index: 1;
+  font-size: 14px;
+  min-width: 100px;
+}
+
+.inputField {
+  padding: 12px;
+  font-size: 14px;
+  outline: none;
+  background-color: #f7f8f9;
+  transition: border-color 0.3s ease;
+
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  opacity: 1;
+
+  text-align: left;
+  letter-spacing: 0px;
+  color: #1d2226;
+}
+
+.inputField:focus {
+  border-color: #6d28d9;
+}
+
+.inputField::placeholder {
+  color: #919191;
+  opacity: 1;
+}

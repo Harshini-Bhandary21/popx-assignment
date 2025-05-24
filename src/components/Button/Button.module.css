@@ -1,0 +1,19 @@
+.button {
+  width: 100%;
+  display: block;
+
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+
+  color: #ffffff;
+  background: #6c25ff 0% 0% no-repeat padding-box;
+  opacity: 1;
+
+  text-align: center;
+  cursor: pointer;
+
+  letter-spacing: 0px;
+
+  font-size: 1rem;
+}

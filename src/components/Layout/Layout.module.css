@@ -1,0 +1,11 @@
+.container {
+  max-width: 375px;
+  min-height: 100dvh;
+  max-height: 812px;
+
+  margin-inline: auto;
+  margin-block: auto;
+
+  border: 0.5px solid lightgray;
+  background-color: #F7F8F9;
+}
